@@ -1,5 +1,7 @@
 using System;
 using System.Net.NetworkInformation;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Enigma
 {

@@ -1,10 +1,11 @@
 using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Enigma
 {
 	public class PolyCrypt
 	{
-		// TODO: Finish Polymorphic Encryption and Decryption
 		#region Polymorphic Encrypt Text
 
 		public static string polyEncryptTxt(string text, string pass)
