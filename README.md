@@ -1,7 +1,6 @@
- * -=[Project Enigma]=-
- * 
- * [E]ncrypted [N]euraL [I]ntelligence [G]enerated [M]achine [A]pplication
- * 
+## -=[Project Enigma]=-
+### [E]ncrypted [N]euraL [I]ntelligence [G]enerated [M]achine [A]pplication
+
  * Artificial Intelligence & Cryptography Analysis and Algorithm Generation
  * when combining all of the above in a way that is difficult for us to
  * understand you get Project Enigma. So lets use bad programming practices
