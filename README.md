@@ -22,7 +22,8 @@
 
 * [Change Log]
 * [Te]+1 - Engima's Creation [Nov 3, 2015]
-* [De]001- Add: Console & Commands Structure");[De]002- Add: Password Analyzer
+* [De]001- Add: Console & Commands Structure
+* [De]002- Add: Password Analyzer
 * [De]003- Add: File Text Reader
 * [De]004- Add: kTm Crypto Engine
 * [De]005- Update: kTm Algo 4 Modes 'ECB, CBC, CFB, OFB'
