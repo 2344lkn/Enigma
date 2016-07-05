@@ -1,5 +1,12 @@
 ## -=[Project Enigma]=-
 ### [E]ncrypted [N]euraL [I]ntelligence [G]enerated [M]achine [A]pplication
+#### Project Goals:
+##### - Create a command console with a assortment of useful or nonuseful tools [Text Tools] [Net Tools] [Crypto Tools] [AI Tools]
+##### - Create an artificial intelligence that can identify what encryption algoroithm is used on an encrypted file or encrypted string/message and maybe learn to decrypt them.
+##### - Create an artificial intelligence that can generate its own encryption algorithms.
+##### - Create an artificial intelligence that can defend against cyber attacks and viruses.
+
+###### If anyone would like to add a tool or would like to do some optimization or even work on AI or Crypto please feel free to do so! This project might never reach completion but thats fine its here so I can learn and try different things and maybe some of you would like to join me in this journy.
 
  * Artificial Intelligence & Cryptography Analysis and Algorithm Generation
  * when combining all of the above in a way that is difficult for us to
