@@ -7,7 +7,7 @@ namespace Enigma
 	public class About
 	{
 		// Define Global Version Strings
-		public static string def = "015";
+		public static string def = "016";
 		public static string ed = "01";
 		public static string dura = "02";
 
@@ -58,6 +58,7 @@ namespace Enigma
 			Console.WriteLine("[De]014- Add: Url Scanner checks for a list of paths");
 			Console.WriteLine("[De]015- Add: Polynomial Encryption and Decryption");
 			Console.WriteLine("[Du]02 - Algorithm: Polynomial Crypto Algo");
+			Console.WriteLine("[De]016- Update: Correct Error checking and handling for all tools");
 		}
 	}
 }

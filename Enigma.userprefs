@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Enigma/Enigma.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Enigma/Tools/Net/Net.cs">
     <Files>
-      <File FileName="Enigma/Enigma.cs" Line="214" Column="20" />
+      <File FileName="Enigma/Core/About.cs" Line="21" Column="40" />
+      <File FileName="Enigma/Tools/Net/UrlScan/UrlScan.cs" Line="109" Column="4" />
+      <File FileName="Enigma/Tools/Net/Net.cs" Line="107" Column="63" />
+      <File FileName="Enigma/Enigma.cs" Line="40" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

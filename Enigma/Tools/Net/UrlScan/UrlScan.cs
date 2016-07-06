@@ -74,7 +74,6 @@ namespace Enigma
 				Console.ForegroundColor = ConsoleColor.Magenta;
 				Console.WriteLine("An error occured~ " + ex.Message);
 				Console.ForegroundColor = ConsoleColor.Red;
-				Console.ReadKey();
 			}
 		}
 

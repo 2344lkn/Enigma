@@ -241,6 +241,10 @@ namespace Enigma
 					Net.UrlScanner();
 					break;
 
+					// WebRequest Test
+				case "webr":
+					Net.testWebReq();
+					break;
 					#endregion
 
 				default:

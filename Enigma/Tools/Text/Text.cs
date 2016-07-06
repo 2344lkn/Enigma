@@ -122,7 +122,9 @@ namespace Enigma
 			}
 			catch
 			{
+				Console.ForegroundColor = ConsoleColor.Magenta;
 				Console.WriteLine("File not found, or Path is invalid.");
+				Console.ForegroundColor = ConsoleColor.Red;
 			}
 		}
 

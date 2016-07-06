@@ -1,1 +1,3 @@
-This will be the message to encrypt and decrypt.
+ŢĐĒĝÊŉŐÌĔģĎĕĎĝĝŁńđÇĞŝÈĎĘčŒŖĜěv
+
+this is my message to encrypt

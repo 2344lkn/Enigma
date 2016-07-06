@@ -43,29 +43,41 @@ namespace Enigma
 
 		public static string polyDecryptTxt(string text, string pass)
 		{
-			char[] txtAr = text.ToCharArray();
-			char[] pwdAr = pass.ToCharArray();
-			char[] fVal = new char[text.Length - 1];
-			int rVal = txtAr[text.Length - 1];
-			int kl = 0;
-
-			for (int plyCrypt = 0; plyCrypt < text.Length; plyCrypt++)
+			string polyDec = "0";
+			try
 			{
-				if (plyCrypt >= text.Length - 1)
-					continue;
-				if (kl >= pwdAr.Length)
-					kl = 0;
-				int tVal = txtAr[plyCrypt];
-				int pVal = pwdAr[kl];
-				int cVal = tVal - rVal - pVal;
-				fVal[plyCrypt] = Convert.ToChar(cVal);
-				kl++;
+				char[] txtAr = text.ToCharArray();
+				char[] pwdAr = pass.ToCharArray();
+				char[] fVal = new char[text.Length - 1];
+				int rVal = txtAr[text.Length - 1];
+				int kl = 0;
+
+				for (int plyCrypt = 0; plyCrypt < text.Length; plyCrypt++)
+				{
+					if (plyCrypt >= text.Length - 1)
+						continue;
+					if (kl >= pwdAr.Length)
+						kl = 0;
+					int tVal = txtAr[plyCrypt];
+					int pVal = pwdAr[kl];
+					int cVal = tVal - rVal - pVal;
+					fVal[plyCrypt] = Convert.ToChar(cVal);
+					kl++;
+				}
+
+				string plyStr = new string(fVal);
+				Console.WriteLine("Decrypted:");
+				Console.WriteLine(plyStr);
+				return plyStr;
+			}
+			catch (Exception e)
+			{
+				Console.ForegroundColor = ConsoleColor.Magenta;
+				Console.WriteLine(e.Message);
+				Console.ForegroundColor = ConsoleColor.Red;
 			}
 
-			string plyStr = new string(fVal);
-			Console.WriteLine("Decrypted:");
-			Console.WriteLine(plyStr);
-			return plyStr;
+			return polyDec;
 		}
 
 		#endregion
